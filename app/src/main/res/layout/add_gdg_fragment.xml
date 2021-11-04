@@ -161,7 +161,8 @@
             <Button
                     android:id="@+id/button"
                     android:contentDescription="@string/submit_button_description"
-                    android:text="Ok"
+                    android:accessibilityLiveRegion="polite"
+                    android:text="@string/submit"
                     android:layout_width="40dp"
                     android:layout_height="24dp"
                     app:layout_constraintBottom_toBottomOf="parent"
